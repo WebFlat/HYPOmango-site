@@ -304,7 +304,7 @@ function sendMail(subject, message) {
     const SECRET_KEY = 'b5031574b0ab670d84c3eb4af6745f95';
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    myHeaders.set('Authorization', 'Basic ' + base64.encode('161cc04c8e98ae3f65dedf152de92571' + ":" + 'b5031574b0ab670d84c3eb4af6745f95'));
+    myHeaders.set('Authorization', 'Basic ' + Base64.encode('161cc04c8e98ae3f65dedf152de92571' + ":" + 'b5031574b0ab670d84c3eb4af6745f95'));
 
 
     const data = JSON.stringify({
