@@ -1,7 +1,7 @@
 //Mobile menu******************************
 let menu = document.querySelector('#menu'),
     list = document.querySelector('#menu-list'),
-    nav = document.querySelectorAll('.navigation__list'),
+    nav = document.querySelectorAll('.navigation--mobile .navigation__list'),
     body = document.querySelector('body');
 
 menu.addEventListener('click', function (e) {
