@@ -265,7 +265,10 @@
 		        <h2 class="step__subtitle">
 		            Bližšie info Vám pride do mailu a alebo Vás bude kontaktovať Vas špecialista
 		        </h2>
-		        <input class="step__email" id="email" type="email" placeholder="vas@email.sk">
+		        <div style="position: relative">
+		            <input class="step__email" id="email" type="email" placeholder="vas@email.sk">
+		            <span class="form__error" id="error-email-step">Nesprávny email!</span>
+		        </div>
 		        <div class="step__btns step__btns--8">
 		            <span class="btn btn--step-black btn-next" data-next="9">Pokračovať</span>
 		        </div>
@@ -278,7 +281,10 @@
 		        </h2>
 		        <div class="step__inputs">
 		            <input class="step__email" id="name" type="text" placeholder="Vaše meno a priezvisko">
-		            <input class="step__email" id="tel" type="tel" placeholder="Telefon">
+		            <div style="position: relative">
+		                <input class="step__email" id="tel" type="tel" placeholder="Telefón">
+		                <span class="form__error" id="error-tel-step">Nesprávny telefón!</span>
+		            </div>
 		            <input class="step__email" id="psc" type="number" placeholder="PSČ">
 		        </div>
 		        <p class="step__policy">Odoslaním potvrdzujete, že ste sa zoznámili s našimi <a href="./podmienky.html"
