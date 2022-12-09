@@ -18,7 +18,7 @@
 
     $subject = 'HYPOmango hypotéku';
     $to = 'uzana.drobnakova11@gmail.com'.','; // Recipient
-    $to .= 'vavrikr@gmail.com'; // Dubble
+    $to .= 'hypomango@gmail.com'; // Dubble
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
